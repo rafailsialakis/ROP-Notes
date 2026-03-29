@@ -61,7 +61,7 @@ aaaabaaacaaadaaaeaaafaaagaaahaaaiaaajaaakaaalaaamaaanaaaoaaapaaaqaaaraaasaaataaa
 Program received signal SIGSEGV, Segmentation fault.
 ```
 
-Βλέπουμε ότι καταφέραμε να crashάρουμε το πρόγραμμα. Αρκεί να βρούμε το offset τώρα:ska
+Βλέπουμε ότι καταφέραμε να crashάρουμε το πρόγραμμα. Αρκεί να βρούμε το offset τώρα:
 
 ```ABAP
 gef➤  pattern search $eip
